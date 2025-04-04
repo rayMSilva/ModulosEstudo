@@ -18,4 +18,14 @@ String? nome1; //Tipo nulo. aceita 2 tipos de valores nulo e String
 String name2 = 'Bob'; //Tipo não nulo. aceita 1 tipo de valor e precisa ser instanciado ou receber algum valor
 
 //Late Variáveis
-late int num1;
+late int num1, num2;
+
+int somar(int n1, n2){
+  num1 = n1;
+  num2 = n2;
+  return num1 +  num2;
+}
+
+void main(){
+  print(somar(2, 4));
+}
