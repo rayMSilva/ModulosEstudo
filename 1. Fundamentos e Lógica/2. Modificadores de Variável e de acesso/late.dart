@@ -6,9 +6,9 @@ class Soma{
 
   int somar(int n1, int n2)//função somar
   {
-    num1 = n1;
-    num2 = n2;
-    return num1 + num2;
+    num1 = n1; //inicializando a primeira variável
+    num2 = n2; //inicializando a segunda variável
+    return num1 + num2; //retornando uma soma
   }
 }
 
