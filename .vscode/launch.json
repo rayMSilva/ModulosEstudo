@@ -6,8 +6,10 @@
     "configurations": [
         {
             "name": "Dart & Flutter",
+            "type": "dart",
             "request": "launch",
-            "type": "dart"
+            "program": "Execcoes.dart",
+            "cwd": "C:\\projetos\\modulos\\1. Fundamentos e Lógica\\4. Exceptions"
         }
     ]
 }
