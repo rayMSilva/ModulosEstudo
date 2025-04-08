@@ -10,11 +10,9 @@ class Pessoas{
   Pessoas(this._nome, this._idade);
 
   //getters & setters
-
   String caracteristicas(Pessoas){
     return '\n\nNome: ${Pessoas._nome}  || idade: ${Pessoas._idade}';
   }
-
 }
 
 
@@ -26,9 +24,7 @@ void main()
     stdout.write('Digite sua Idade: ');
     String? idade = stdin.readLineSync();
 
-
     Pessoas pessoa1 = Pessoas(nome, idade);
-
 
     print(pessoa1.caracteristicas(pessoa1));
   }
