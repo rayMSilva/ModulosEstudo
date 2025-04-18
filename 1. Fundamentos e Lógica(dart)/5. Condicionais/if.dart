@@ -13,6 +13,20 @@ class Pessoas{
   String caracteristicas(Pessoas){
     return '\n\nNome: ${Pessoas._nome}  || idade: ${Pessoas._idade}';
   }
+
+  String? get nomeGet => _nome;
+
+  String? get idadeGet => _idade;
+
+  set nomeSet(String nome)
+  {
+    this._nome = nome;
+  }
+
+  set idadeSet(String idade)
+  {
+    this._idade = idade;
+  }
 }
 
 
@@ -27,6 +41,8 @@ void main()
     Pessoas pessoa1 = Pessoas(nome, idade);
 
     print(pessoa1.caracteristicas(pessoa1));
+
+    print(pessoa1.nomeGet);
   }
   catch(e)
   {
